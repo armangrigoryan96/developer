@@ -6,4 +6,4 @@ Clone the project and enter the directory "developer" and run the following comm
 #### 4. $ cd ..
 #### 5. $ npm run dev
 
-Note: the application should open after the last command!!
+Note: the application should start after the last command!!
