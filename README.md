@@ -1,4 +1,4 @@
-Clone the it and enter the directory "developer" and run the following commands 
+Clone the project and enter the directory "developer" and run the following commands 
 
 #### 1. $ npm install
 #### 2. $ cd ./client
