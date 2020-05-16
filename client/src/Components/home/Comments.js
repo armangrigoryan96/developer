@@ -8,7 +8,8 @@ import Spinner from "../layout/Spinner";
 const Comments = ({ received_comments, getMyComments }) => {
   useEffect(() => {
     getMyComments();
-  }, [getMyComments]);
+    console.log({received_comments})
+  }, []);
 
   return (
     <Fragment>
@@ -30,7 +31,7 @@ const Comments = ({ received_comments, getMyComments }) => {
                     className="wow fadeInUp fa fa-star"
                     data-wow-delay="0.3s"
                   />
-                  <Moment format="LLL" />
+                 { /*<Moment format="LLL" /> */}
 
                   <h3 className="wow fadeInUp" data-wow-delay="0.4s">
                     {comment.from.name}:

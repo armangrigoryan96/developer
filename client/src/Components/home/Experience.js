@@ -4,7 +4,7 @@ import { connect } from "react-redux";
 import { Link } from 'react-router-dom'
 import Spinner from "../layout/Spinner";
 import Moment from "react-moment";
-import { deleteExperience,getExperience } from "../../actions/profile";
+import { deleteExperience, getExperience } from "../../actions/profile";
 
 const Experience = ({
   experiences,
