@@ -1,4 +1,7 @@
-Clone the project and enter the directory "developer" and run the following commands 
+Clone the project and enter the directory "developer" 
+
+
+#### !!!  In the email I have attached you a default.json file download it and put into ./developer/config  foldier then start and run the following commands 
 
 #### 1. $ npm install
 #### 2. $ cd ./client
